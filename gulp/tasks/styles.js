@@ -12,7 +12,7 @@ gulpVar.task('styles', function () {
   return gulpVar.src('./app/assets/styles//styles.css')
   .pipe(postcssVar([cssImportVar, mixinsVar, cssvars, nested, autoprefixerVar]))
   .on('error', function (errorInfo) {
-    console.log(errorInfo.toString())
+    console.log(errorInfo.toString());
     this.emit('end');
   })
   .pipe(gulpVar.dest('./app/temp/styles'));
