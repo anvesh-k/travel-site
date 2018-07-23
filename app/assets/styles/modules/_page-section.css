@@ -4,7 +4,7 @@
     padding: 4.5rem 0;
   }
 
-  &--no-n-padding-until-medium {
+  &--no-b-padding-until-medium {
     padding-bottom: 0;
 
     @mixin atMedium {
@@ -12,7 +12,7 @@
     }
   }
 
-  &--no-n-padding-until-large {
+  &--no-b-padding-until-large {
     padding-bottom: 0;
 
     @mixin atLarge {

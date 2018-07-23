@@ -11,7 +11,7 @@
   }
 
   &--gutters-large {
-    padding-right: -100px;
+    margin-right: -100px;
   }
   &--gutters-small {
     margin-right: -45px;
@@ -79,7 +79,7 @@
       width: 50%;
     }
 
-    &_large-8 {
+    &__large-8 {
       float: left;
       width: 66.66%;
     }
